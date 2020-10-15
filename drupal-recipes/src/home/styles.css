@@ -1,0 +1,15 @@
+nav {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 20px;
+  background-color: #fff !important;
+}
+
+.nav-wrapper {
+  background-color: #fff;
+} 
+
+
+i.material-icons {
+  border: 1px solid green;
+}

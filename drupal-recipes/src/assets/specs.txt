@@ -1,0 +1,14 @@
+Typography:
+- Playfair Display
+- Roboto
+
+Colors:
+Gray: #777
+Black: #000
+White: #fff
+Beigecito bajito: #f9f6f1
+Gold: #dfac62
+Orange: #ff7849
+Green: #3dd278
+Blue: #4da8ee
+Red: #f34f4f
