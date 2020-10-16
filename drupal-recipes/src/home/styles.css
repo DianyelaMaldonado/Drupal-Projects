@@ -1,10 +1,34 @@
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+  padding: 0;
+}
+
+nav.nav-center {
+  margin-top: 20px;
+}
+
+ul.left.sn-desktop img {
+  width: 15px;
+  height: 15px;
+}
+
+/* header div.social-network img {
+  width: 15px;
+  height: 15px;
+} */
+
 /* Tablet vertical pa'bajo */
 @media only screen and (max-width: 1023px) {
-
   nav {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    padding: 60px 20px;
     background-color: #fff !important;
   }
   
@@ -22,31 +46,19 @@
     line-height: 38px;
   }
   nav div.nav-wrapper .sidenav-trigger {
-    height: 38px;
     margin: 0;
   }
+
+  .nav-wrapper.sn-tablet .sn-img {
+    width: 15px;
+    height: 15px;
+  }
 }
+
 @media only screen and (max-width: 767px) {
   .img-sidenav {
     padding: 30px;
   }
-
-}
-
-nav.nav-center ul {
-  text-align: center;
-}
-nav.nav-center ul li {
-  display: inline;
-  float: none;
-}
-nav.nav-center ul li a {
-  display: inline-block;
-}
-
-header div.social-network img {
-  width: 15px;
-  height: 15px;
 }
 
 @media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
@@ -56,4 +68,6 @@ header div.social-network img {
     transform: translateX(-50%);
   }
 }
+
+
 
