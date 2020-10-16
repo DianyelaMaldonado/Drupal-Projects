@@ -48,7 +48,6 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   margin: 0 15px;
 }
 
-
 /* Tablet vertical pa'bajo */
 @media only screen and (max-width: 1023px) {
   nav {
@@ -56,16 +55,16 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
     box-shadow: none !important;
     background-color: #fff !important;
   }
-  
+
   nav .nav-wrapper {
     background-color: #fff;
     height: 100%;
   }
-  
+
   ul#mobile-demo .sidewrapper-tablet {
     padding: 10px;
   }
-  
+
   div.nav-wrapper a.sidenav-trigger i.material-icons {
     background-color: #dfac62;
     width: 50px;
@@ -90,7 +89,7 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   }
 }
 
-@media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
+@media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
   nav.nav-center .nav-wrapper .brand-logo {
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -98,5 +97,27 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   }
 }
 
+/* slider */
 
+img.responsive-img.img-style {
+  border-radius: 59px;
+  padding: 0 20px;
+}
 
+.relative {
+  position: relative;
+}
+
+.about-image {
+  background-color: white;
+  position: absolute;
+  width: 64%;
+  height: 32%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  padding: 26px;
+  border-radius: 10px;
+}
