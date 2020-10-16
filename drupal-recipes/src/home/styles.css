@@ -1,0 +1,102 @@
+body nav {
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+
+nav.nav-center ul li a {
+  display: inline-block;
+  padding: 0;
+}
+
+header.hide-on-med-and-down {
+  margin-top: 20px;
+}
+
+nav.nav-center {
+  margin-top: 10px;
+}
+
+ul#mobile-demo {
+  padding: 10px;
+}
+
+ul#mobile-demo .sidewrapper-tablet {
+  padding: 10px;
+}
+
+ul.hide-on-med-and-down.center.nav-desktop-bg {
+  background-color: #dfac62;
+  border-radius: 8px;
+}
+
+ul.left.sn-desktop img {
+  width: 15px;
+  height: 15px;
+}
+
+ul.hide-on-med-and-down.center.nav-desktop-bg li a {
+  margin: 0 15px;
+}
+
+
+/* Tablet vertical pa'bajo */
+@media only screen and (max-width: 1023px) {
+  nav {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+  }
+  
+  nav .nav-wrapper {
+    background-color: #fff;
+    height: 100%;
+  }
+  
+  ul#mobile-demo .sidewrapper-tablet {
+    padding: 10px;
+  }
+  
+  div.nav-wrapper a.sidenav-trigger i.material-icons {
+    background-color: #dfac62;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+  }
+  nav div.nav-wrapper .sidenav-trigger {
+    margin: 0;
+  }
+
+  .nav-wrapper.sn-tablet .sn-img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-sidenav {
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
+  nav.nav-center .nav-wrapper .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+
+
