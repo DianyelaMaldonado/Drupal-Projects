@@ -15,30 +15,60 @@
 </head>
 <body>
 
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo left"><img src="../assets/logo.png" alt=""></a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Appetizers</a></li>
-        <li><a href="#">Dinner</a></li>
-        <li><a href="#">Breakfast</a></li>
-        <li><a href="#">Desserts</a></li>
-        <li><a href="#">Snacks</a></li>
-      </ul>
+  <!-- Se verá solo en desktop -->
+  <header class="hide-on-med-and-down">
+    <div class="container">
+      <nav>
+        <!-- <div class="social-network left">
+          <a href="#!"><img src="../assets/facebook.svg" alt=""></a>
+          <a href="#!"><img src="../assets/twitter.svg" alt=""></a>
+          <a href="#!"><img src="../assets/instagram.svg" alt=""></a>
+        </div> -->
+        <ul class="left">
+          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+          <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+          <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+          <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        </ul>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo center"><img src="../assets/logo.png" alt=""></a>
+        </div>
+      </nav>
     </div>
-  </nav>
+  </header>
+  <!-- Aquí de tablet pa'bajo -->
+  <div class="container">
+    <nav class="nav-center">
+      <div class="nav-wrapper">
+        <ul class="left hide-on-small-only hide-on-large-only">
+          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+          <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+          <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+          <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        </ul>
+        <a href="#!" class="brand-logo hide-on-large-only left"><img src="../assets/logo.png" alt=""></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down center">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Appetizers</a></li>
+          <li><a href="#">Dinner</a></li>
+          <li><a href="#">Breakfast</a></li>
+          <li><a href="#">Desserts</a></li>
+          <li><a href="#">Snacks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <img src="../assets/logo.png" alt="" class="img-sidenav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Appetizers</a></li>
+      <li><a href="#">Dinner</a></li>
+      <li><a href="#">Breakfast</a></li>
+      <li><a href="#">Desserts</a></li>
+      <li><a href="#">Snacks</a></li>
+    </ul>
+  </div> 
 
-  <ul class="sidenav .show-on-medium" id="mobile-demo">
-    <img src="../assets/logo.png" alt="" class="img-sidenav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Appetizers</a></li>
-    <li><a href="#">Dinner</a></li>
-    <li><a href="#">Breakfast</a></li>
-    <li><a href="#">Desserts</a></li>
-    <li><a href="#">Snacks</a></li>
-  </ul>
 
   <script src="home.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

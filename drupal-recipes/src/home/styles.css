@@ -1,4 +1,5 @@
-@media only screen and (max-width: 767px) {
+/* Tablet vertical pa'bajo */
+@media only screen and (max-width: 1023px) {
 
   nav {
     -webkit-box-shadow: none !important;
@@ -10,12 +11,9 @@
   nav .nav-wrapper {
     background-color: #fff;
     height: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
   } 
   
-  div.nav-wrapper a i.material-icons {
+  div.nav-wrapper a.sidenav-trigger i.material-icons {
     background-color: #dfac62;
     width: 50px;
     border-radius: 5px;
@@ -27,14 +25,35 @@
     height: 38px;
     margin: 0;
   }
-  
+}
+@media only screen and (max-width: 767px) {
   .img-sidenav {
     padding: 30px;
   }
 
 }
 
-/* @media only screen and (min-width: 1024px) and (max-width: 1600px) {
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
 
-} */
+header div.social-network img {
+  width: 15px;
+  height: 15px;
+}
+
+@media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
+  nav.nav-center .nav-wrapper .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
 
