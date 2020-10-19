@@ -48,6 +48,13 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   margin: 0 15px;
 }
 
+/* CANAL STYLES */
+
+.first-segment-wrapper h4 {
+  font-size: 2.9em;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
 
 /* Tablet vertical pa'bajo */
 @media only screen and (max-width: 1023px) {
@@ -56,16 +63,16 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
     box-shadow: none !important;
     background-color: #fff !important;
   }
-  
+
   nav .nav-wrapper {
     background-color: #fff;
     height: 100%;
   }
-  
+
   ul#mobile-demo .sidewrapper-tablet {
     padding: 10px;
   }
-  
+
   div.nav-wrapper a.sidenav-trigger i.material-icons {
     background-color: #dfac62;
     width: 50px;
@@ -88,15 +95,34 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   .img-sidenav {
     padding: 30px;
   }
+
+  /* CANAL STYLES */
+
+  .first-segment-wrapper h4 {
+    font-size: 2.1em;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
 }
 
-@media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
+@media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
   nav.nav-center .nav-wrapper .brand-logo {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+
+  .first-segment-wrapper h4 {
+    font-size: 2.9em;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+  }
 }
 
+/* CANAL STYLES */
 
-
+.first-segment-wrapper {
+  background: #f9f6f1;
+  margin-top: 61px;
+  padding: 50px 48px 76px;
+}
