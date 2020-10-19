@@ -48,6 +48,73 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   margin: 0 15px;
 }
 
+/* slider */
+
+img.img-style {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.slick-slide {
+  padding: 20px 20px 0 20px;
+}
+
+.relative {
+  position: relative;
+}
+
+.about-image {
+  background-color: white;
+  position: absolute;
+  width: 74%;
+  height: 46%;
+  top: 39%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  padding: 26px;
+  border-radius: 10px;
+}
+
+.line-wrapper h3 {
+  font-size: 1.7em;
+  color: #dfac62;
+}
+
+.arrow-wrapper {
+  position: relative;
+}
+
+button.sliderButton.prev.waves-effect.waves-light.btn-small.slick-arrow {
+  position: absolute;
+  left: 24%;
+  color: #000;
+  background-color: #fff;
+  top: 50%;
+  width: 50px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
+  position: absolute;
+  right: 24%;
+  color: #000;
+  top: 50%;
+  background-color: #fff;
+  width: 50px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.title-slider-card {
+  font-family: "Playfair Display", serif;
+  font-size: 3.8em;
+}
 
 /* Tablet vertical pa'bajo */
 @media only screen and (max-width: 1023px) {
@@ -56,16 +123,16 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
     box-shadow: none !important;
     background-color: #fff !important;
   }
-  
+
   nav .nav-wrapper {
     background-color: #fff;
     height: 100%;
   }
-  
+
   ul#mobile-demo .sidewrapper-tablet {
     padding: 10px;
   }
-  
+
   div.nav-wrapper a.sidenav-trigger i.material-icons {
     background-color: #dfac62;
     width: 50px;
@@ -88,15 +155,47 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   .img-sidenav {
     padding: 30px;
   }
+
+  .title-slider-card {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+  }
+
+  .about-image {
+    background-color: white;
+    position: absolute;
+    width: 82%;
+    height: 93%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 26px;
+    border-radius: 10px;
+  }
 }
 
-@media only screen and (min-width: 768px) and (orientation:portrait) and (min-height:1024px) {
+@media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
   nav.nav-center .nav-wrapper .brand-logo {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+
+  /* slider */
+
+  .about-image {
+    background-color: white;
+    position: absolute;
+    width: 74%;
+    height: 68%;
+    top: 10%;
+    left: 0px;
+    right: 0px;
+    bottom: 5%;
+    margin: auto;
+    padding: 26px;
+    border-radius: 10px;
+  }
 }
-
-
-
