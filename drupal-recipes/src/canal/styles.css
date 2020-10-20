@@ -241,31 +241,50 @@ img.circle.img-recent {
   line-height: 25px;
 }
 
-.title-recipe-recent {
+.title-recipe-recent, .title-categories {
   color: #dfac62;
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 .recent-date {
 color: #777;
 }
 
-a.btn-floating.waves-effect.waves-light.white {
+.bg-categories {
+  background: url(../assets/dessert-categories-320x100.jpg)no-repeat top right;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+
+.shadow {
+  box-shadow:inset 0px 0px 85px rgba(0,0,0,.83);
+  -webkit-box-shadow:inset 0px 0px 85px rgba(0,0,0,.83);
+  -moz-box-shadow:inset 0px 0px 85px rgba(0,0,0,.83);
+}
+
+span.btn-floating.waves-effect.waves-light.white {
   color: #000;
   font-size: 0.7em;
   text-align: center;
   font-weight: bold;
+  margin-top: 4px;
 }
 
 .line-categories {
     width: 100%;
-    border: 1 pixel dashed;
-    border: 1px solid dashed;
     border: 1px dashed;
+    margin-top: 24px;
 } 
 
-.bg-categories {
-  background: url(../assets/canal-image.jpg)no-repeat top right;
-  height: auto;
-  width: 100%;
+.categories-title {
+  font-weight: bold;
 }
+
+
+
+
+
