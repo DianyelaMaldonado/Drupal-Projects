@@ -199,3 +199,51 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     border-radius: 10px;
   }
 }
+
+/* Recipe Categories */
+
+.titleRC {
+  font-family: Playfair Display;
+  font-size: 3.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-content {
+  text-align: center;
+  background-color: #dfac62;
+  color: #fff;
+}
+
+.card-content h3 {
+  font-family: Playfair Display;
+}
+
+.row .col .card .card-image img {
+  border-radius: 15px 15px 0 0;
+}
+
+.row .card .card-content {
+  padding: 3px;
+  border-radius: 0 0 15px 15px;
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+.green9 {
+  background-color: #4bd777;
+}
+
+.blue {
+  background-color: royalblue;
+}
+
+.red9 {
+  background-color: red;
+}
