@@ -256,3 +256,16 @@ a.btn-floating.waves-effect.waves-light.white {
   text-align: center;
   font-weight: bold;
 }
+
+.line-categories {
+    width: 100%;
+    border: 1 pixel dashed;
+    border: 1px solid dashed;
+    border: 1px dashed;
+} 
+
+.bg-categories {
+  background: url(../assets/canal-image.jpg)no-repeat top right;
+  height: auto;
+  width: 100%;
+}
