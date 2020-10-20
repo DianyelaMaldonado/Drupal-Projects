@@ -186,6 +186,7 @@ border-bottom: 1px dotted;
 .simple-title {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  color: #000;
 }
 
 p.subtitle {
@@ -217,6 +218,10 @@ margin: 0;
   max-width: 19%;
 }
 
+.author-link {
+  color: #000;
+}
+
 .recipe-author.valign-wrapper {
   border-top: 1px solid rgb(0 0 0 / 9%);
   border-bottom: 1px solid rgb(0 0 0 / 9%);
@@ -226,7 +231,7 @@ margin: 0;
 }
 
 img.circle.img-recent {
-  max-width: 100%;
+  max-width: 88%;
   height: auto;
 }
 
@@ -243,4 +248,11 @@ img.circle.img-recent {
 
 .recent-date {
 color: #777;
+}
+
+a.btn-floating.waves-effect.waves-light.white {
+  color: #000;
+  font-size: 0.7em;
+  text-align: center;
+  font-weight: bold;
 }
