@@ -110,6 +110,12 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   div p.title-recipe-recent.center,.title-categories {
     font-size: 1.1em;
   }
+
+  .img-circle {
+    width: 100%;
+    height: auto;
+    max-width: 14%;
+  }
   
 }
 
@@ -127,13 +133,13 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
     font-family: "Playfair Display", serif;
   }
 
-  img.circle.img-circle.log {
-    max-width: 7%;
-  }
-
   .description-recipe, .line-separation {
     line-height: 28px;
     font-weight: bold;
+  }
+
+  img.circle.img-circle.log {
+    max-width: 7%;
   }
 
   ul.ingredients-list {
@@ -193,10 +199,8 @@ ul.hide-on-med-and-down.center.nav-desktop-bg li a {
   margin-bottom: 10%;
 }
 
-.img-circle {
-  width: 100%;
-  height: auto;
-  max-width: 14%;
+img.circle.img-circle.log {
+  max-width: 4%;
 }
 
 .info h3 {
@@ -343,8 +347,5 @@ span.btn-floating.waves-effect.waves-light.white {
 .categories-title {
   font-weight: bold;
 }
-
-
-
 
 
