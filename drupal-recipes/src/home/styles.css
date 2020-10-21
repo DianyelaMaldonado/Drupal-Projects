@@ -247,3 +247,27 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
 .red9 {
   background-color: red;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* The Latest and Greatest */
+
+section .btn {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+section .btn {
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  box-shadow: none !important;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+}
+
+
