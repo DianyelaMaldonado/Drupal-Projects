@@ -189,7 +189,7 @@ color: #777;
 }
 
 .bg-categories {
-  background: url(../assets/dessert-categories-320x100.jpg)no-repeat top right;
+  background: url(../assets/Appetizers.jpeg)no-repeat top right;
   height: auto;
   width: 100%;
   background-size: cover;
@@ -289,7 +289,7 @@ span.btn-floating.waves-effect.waves-light.white {
   .circle-author {
     width: 100%;
     height: auto;
-    max-width: 17%;
+    max-width: 100%;
   }
 
   a.author-link {
