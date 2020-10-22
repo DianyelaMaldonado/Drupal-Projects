@@ -149,6 +149,15 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     width: 15px;
     height: 15px;
   }
+
+  .card-image .card-content h3 {
+    font-family: Playfair Display;
+    font-size: 2.1em;
+  }
+  
+  .card-image .card-content h5 {
+    font-size: 1.1em;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -174,6 +183,15 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     padding: 26px;
     border-radius: 10px;
   }
+
+  .card-image .card-content h3 {
+    font-family: Playfair Display;
+    font-size: 2.1em;
+  }
+  
+  .card-image .card-content h5 {
+    font-size: 1.1em;
+  }
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
@@ -198,6 +216,16 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     padding: 26px;
     border-radius: 10px;
   }
+
+  /* Recipe Categories */
+  .card-image .card-content h3 {
+    font-family: Playfair Display;
+    font-size: 2.1em;
+  }
+  
+  .card-image .card-content h5 {
+    font-size: 1.1em;
+  }
 }
 
 /* Recipe Categories */
@@ -217,6 +245,11 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
 
 .card-content h3 {
   font-family: Playfair Display;
+  font-size: 1.8em;
+}
+
+.card-content h5 {
+  font-size: 1.1em;
 }
 
 .row .col .card .card-image img {
@@ -248,6 +281,10 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
   background-color: red;
 }
 
+.naranja {
+  background-color: rgb(255, 132, 0);
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -259,15 +296,76 @@ section .btn {
   color: #000;
   background-color: #fff;
   padding: 10px 20px;
-}
-
-section .btn {
   border: 2px solid rgb(213, 213, 213);
   border-radius: 10px;
   box-shadow: none !important;
   width: 180px;
   height: auto;
   margin-left: 15px;
+  margin-bottom: 30px;
 }
+
+.relativeLG {
+  position: relative;
+}
+
+.img-styleLG {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.about-imageLG {
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 75%;
+  top: 2%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.line-wrapperLG h3 {
+  font-size: .8em;
+  font-weight: bolder;
+  color: #dfac62;
+
+}
+
+.title-cardLG {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.LG-wrapper {
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+
+.star-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.star-wrapper i {
+  color: red;
+  margin-right: 20px;
+  font-size: small;
+}
+
+.star-wrapper span {
+  font-size: .7em;
+}
+
+
+
+
+
 
 
