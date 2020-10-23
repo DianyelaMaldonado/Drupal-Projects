@@ -231,8 +231,8 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
 /* Recipe Categories */
 
 .titleRC {
-  font-family: Playfair Display;
-  font-size: 3.2em;
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
 }
@@ -266,19 +266,19 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
 }
 
 .tomato {
-  background-color: tomato;
+  background-color: #ff7849;
 }
 
 .green9 {
-  background-color: #4bd777;
+  background-color: #3dd278;
 }
 
 .blue {
-  background-color: royalblue;
+  background-color: #4da8ee;
 }
 
 .red9 {
-  background-color: red;
+  background-color: #f34f4f;
 }
 
 .naranja {
@@ -305,6 +305,13 @@ section .btn {
   margin-bottom: 30px;
 }
 
+.titleLG {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
 .relativeLG {
   position: relative;
 }
@@ -319,8 +326,8 @@ section .btn {
   background-color: white;
   position: absolute;
   width: 80%;
-  height: 75%;
-  top: 2%;
+  height: 50%;
+  top: 35%;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -333,7 +340,6 @@ section .btn {
   font-size: .8em;
   font-weight: bolder;
   color: #dfac62;
-
 }
 
 .title-cardLG {
@@ -354,7 +360,7 @@ section .btn {
 }
 
 .star-wrapper i {
-  color: red;
+  color: #fc8415;
   margin-right: 20px;
   font-size: small;
 }
@@ -362,6 +368,186 @@ section .btn {
 .star-wrapper span {
   font-size: .7em;
 }
+
+/* Make it tonight */
+
+.bg-makeit {
+  background-color: #f9f6f1;
+}
+
+.titleMT {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-left: 15px;
+}
+
+section .btn-MT {
+  color: #000;
+  background-color: #f9f6f1;
+  padding: 10px 20px;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  box-shadow: none !important;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.img-styleMT {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.line-wrapperMT {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-wrapperMT .title-cardMT {
+  font-size: 1em;
+  font-weight: bolder;
+  color: #dfac62;
+  margin: 0;
+}
+
+.line-wrapperMT .description-cardMT {
+  font-family: "Playfair Display", serif;
+  color: #000;
+  font-size: 1.6em;
+  margin: 5px 0;
+}
+
+.line-wrapperMT span {
+  font-size: 1em;
+}
+
+.flex-MT {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MT-wrapper {
+  margin-bottom: 50px;
+}
+
+/* Top Collections */
+
+.titleTC {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5em;
+  font-weight: 500;
+  padding-top: 25px;
+}
+
+.card-imageTC img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.line-wrapperTC h3 {
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: #dfac62;
+}
+
+.title-cardTC {
+  font-family: "Playfair Display", serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.TC-wrapper {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+.star-wrapperTC {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.star-wrapperTC i {
+  color: #fc8415;
+  margin-right: 10px;
+  font-size: large;
+}
+
+.star-wrapperTC span {
+  font-size: 1em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+}
+
+.logo-footer {
+  margin-top: 30px;
+}
+
+
+.footer .row .nav-footer ul li a i {
+  margin-right: 12px;
+  color: #dfac62;
+}
+
+.nav-footer a {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.nav-footer ul{
+  display: flex;
+  justify-content: center;  
+  margin: 30px 0;
+}
+
+.footer hr {
+  margin-bottom: -15px;
+}
+
+.footer .copy-right {
+  font-size: 1em;
+  color: #fff;
+  margin-top: 0;  
+}
+
+.footer-sn .footer-wrapper ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer .footer-sn .footer-wrapper ul li a img{
+  border: 1px solid white;
+  width: 18px;
+  height: 18px;
+  margin: 10px;
+  fill: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
