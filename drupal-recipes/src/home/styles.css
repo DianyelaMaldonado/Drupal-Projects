@@ -149,6 +149,15 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     width: 15px;
     height: 15px;
   }
+
+  .card-image .card-content h3 {
+    font-family: Playfair Display;
+    font-size: 2.1em;
+  }
+  
+  .card-image .card-content h5 {
+    font-size: 1.1em;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -174,6 +183,51 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     padding: 26px;
     border-radius: 10px;
   }
+
+  .card-image .card-content h3 {
+    font-family: Playfair Display;
+    font-size: 2.1em;
+  }
+  
+  .card-image .card-content h5 {
+    font-size: 1.1em;
+  }
+
+  /* Make it Tonight */
+  .description-MT .mt-text {
+    margin-top: 24px;
+  }
+
+  .bg-makeit .responsive-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Footer */
+
+  footer#custom_footer div.container ul.sections li {
+    width: 31%;
+  }
+
+  .container-cr-sn.valign-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer#custom_footer .row-x ul.sections li:before {
+    position: absolute;
+    background: #dfac62;
+    width: 7px;
+    height: 7px;
+    content: "";
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    bottom: 0;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
@@ -198,4 +252,386 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     padding: 26px;
     border-radius: 10px;
   }
+
+  /* Recipe Categories */
+  .card-image .card-content h3 {
+    font-family: Playfair Display;
+    font-size: 2.1em;
+  }
+  
+  .card-image .card-content h5 {
+    font-size: 1.1em;
+  }
+
+  /* Make it Tonight */
+  .description-MT .mt-text {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bg-makeit .responsive-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;  
+  }
 }
+
+/* Recipe Categories */
+
+.titleRC {
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-content {
+  text-align: center;
+  background-color: #dfac62;
+  color: #fff;
+}
+
+.card-content h3 {
+  font-family: Playfair Display;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card-content h5 {
+  font-size: .8em;
+}
+
+.row .col .card .card-image img {
+  border-radius: 15px 15px 0 0;
+}
+
+.row .card .card-content {
+  padding: 3px;
+  border-radius: 0 0 15px 15px;
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.tomato {
+  background-color: #ff7849;
+}
+
+.green9 {
+  background-color: #3dd278;
+}
+
+.blue {
+  background-color: #4da8ee;
+}
+
+.red9 {
+  background-color: #f34f4f;
+}
+
+.naranja {
+  background-color: rgb(255, 132, 0);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* The Latest and Greatest */
+
+section .btn {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  box-shadow: none !important;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.titleLG {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.relativeLG {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.img-styleLG {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.about-imageLG {
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  height: 55%;
+  top: 35%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.line-wrapperLG h3 {
+  font-size: .8em;
+  font-weight: bolder;
+  color: #dfac62;
+}
+
+.title-cardLG {
+  font-family: "Playfair Display", serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.LG-wrapper {
+  font-size: .8em;
+  margin-bottom: 10px;
+}
+
+.star-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.star-wrapper i {
+  color: #fc8415;
+  margin-right: 20px;
+  font-size: small;
+}
+
+.star-wrapper span {
+  font-size: .7em;
+}
+
+/* Make it tonight */
+
+.bg-makeit {
+  background-color: #f9f6f1;
+}
+
+.titleMT {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-left: 15px;
+}
+
+section .btn-MT {
+  color: #000;
+  background-color: #f9f6f1;
+  padding: 10px 20px;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  box-shadow: none !important;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.bg-makeit .responsive-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;  
+}
+
+.MT-img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.title-cardMT {
+  font-size: .7em;
+  font-weight: bolder;
+  color: #dfac62;
+  margin: 0;
+}
+
+.row .description-MT {
+  padding: 10px 0;
+}
+
+.description-cardMT {
+  font-family: "Playfair Display", serif;
+  color: #000;
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.make-it-tonight .container .description-MT span {
+  font-size: .8em;
+}
+
+.line-wrapperMT span {
+  font-size: .8em;
+}
+
+
+
+
+/* Top Collections */
+
+.titleTC {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5em;
+  font-weight: 500;
+  padding-top: 25px;
+}
+
+.card-imageTC img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.line-wrapperTC h3 {
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: #dfac62;
+}
+
+.title-cardTC {
+  font-family: "Playfair Display", serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.TC-wrapper {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+.star-wrapperTC {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.star-wrapperTC i {
+  color: #fc8415;
+  margin-right: 10px;
+  font-size: large;
+}
+
+.star-wrapperTC span {
+  font-size: 1em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+}
+
+.logo-footer {
+  margin-top: 30px;
+}
+
+.footer .row .nav-footer ul li a i {
+  margin-right: 12px;
+  color: #dfac62;
+}
+
+.nav-footer a {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.nav-footer ul{
+  display: flex;
+  justify-content: center;  
+  margin: 30px 0;
+}
+
+.footer hr {
+  margin-bottom: -15px;
+}
+
+.footer .copy-right {
+  font-size: 1em;
+  color: #fff;
+  margin-top: 0;  
+}
+
+.footer-sn .footer-wrapper ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer .footer-sn .footer-wrapper ul li a img {
+  width: 18px;
+  height: 18px;
+  margin: 10px;
+}
+
+footer#custom_footer ul.sections li:before {
+  position: absolute;
+  background: #dfac62;
+  width: 7px;
+  height: 7px;
+  content: "";
+  top: 0;
+  left: 20%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  bottom: 0;
+  margin: auto;
+}
+
+footer#custom_footer ul.sections li {
+  display: inline-block;
+  width: 22%;
+  position: relative;
+}
+
+footer#custom_footer ul.sections li a {
+  color: #fff;
+}
+
+.container-cr-sn {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
