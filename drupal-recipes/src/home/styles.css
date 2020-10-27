@@ -269,11 +269,12 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
 
 .card-content h3 {
   font-family: Playfair Display;
-  font-size: 1.8em;
+  font-size: 1.2em;
+  margin: 0;
 }
 
 .card-content h5 {
-  font-size: 1.1em;
+  font-size: .8em;
 }
 
 .row .col .card .card-image img {
@@ -338,6 +339,7 @@ section .btn {
 
 .relativeLG {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .img-styleLG {
@@ -350,7 +352,7 @@ section .btn {
   background-color: white;
   position: absolute;
   width: 80%;
-  height: 50%;
+  height: 55%;
   top: 35%;
   left: 0px;
   right: 0px;
@@ -368,7 +370,7 @@ section .btn {
 
 .title-cardLG {
   font-family: "Playfair Display", serif;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: bold;
   margin: 5px 0;
 }
@@ -432,7 +434,7 @@ section .btn-MT {
 }
 
 .title-cardMT {
-  font-size: 1em;
+  font-size: .7em;
   font-weight: bolder;
   color: #dfac62;
   margin: 0;
@@ -445,12 +447,16 @@ section .btn-MT {
 .description-cardMT {
   font-family: "Playfair Display", serif;
   color: #000;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 5px 0;
 }
 
+.make-it-tonight .container .description-MT span {
+  font-size: .8em;
+}
+
 .line-wrapperMT span {
-  font-size: 1em;
+  font-size: .8em;
 }
 
 
