@@ -202,6 +202,37 @@ button.sliderButton.next.waves-effect.waves-light.btn-small.slick-arrow {
     display: flex;
     flex-direction: column;
   }
+
+  /* Footer */
+
+  section#custom_footer div.container ul.sections li {
+    width: 31%;
+  }
+}
+
+section#custom_footer ul.sections li {
+  display: inline-block;
+  width: 22%;
+  position: relative;
+}
+
+section#custom_footer ul.sections li:before {
+  position: absolute;
+  background: #dfac62; /* Cambiar a mostaza */
+  width: 7px;
+  height: 7px;
+  content: "";
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  bottom: 0;
+  margin: auto;
+}
+
+section#custom_footer ul.sections li a {
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait) and (min-height: 1024px) {
